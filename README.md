@@ -18,3 +18,13 @@ reproduce the results—training takes ≈10 min on a single CPU core.
 ---
 
 ## Directory layout
+PINN_Project/
+├── pinn_sds.py # model + training script
+├── evaluate_pinn.py # generate fig_energy.png
+├── plot_diagnostics.py # loss curves + over-fit check
+├── make_error_plots.py # abs / scaled rel. error figures
+├── residual_hist.py # residual histogram
+├── loss_history.npy # saved by training
+├── loss_components.npz # ” ”
+├── figures/ # all figures used in the paper
+└── tables/ # CSV tables T-1 … T-4
